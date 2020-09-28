@@ -5,13 +5,16 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "web": "react-scripts start",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-dom": "^16.13.1",
+    "react-native": "0.63.2",
+    "react-native-web": "^0.13.14"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -22,10 +25,10 @@
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
-    "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
-    "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
+    "react-app-rewired": "^2.1.6",
+    "react-scripts": "^3.4.3",
     "react-test-renderer": "16.13.1",
     "typescript": "^3.8.3"
   },
@@ -38,6 +41,18 @@
       "jsx",
       "json",
       "node"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }
