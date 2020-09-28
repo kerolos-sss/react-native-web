@@ -19,6 +19,7 @@ import {
   StatusBar,
 } from 'react-native';
 import {Platform} from 'react-native';
+import { PersistedProvider } from './state_man/reduxStore';
 
 type TypeOfColors = {[P : string]: ColorValue}
 
@@ -124,4 +125,9 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default () => { 
+
+  return <PersistedProvider> 
+    <App />
+    </PersistedProvider>
+};
