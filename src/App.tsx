@@ -21,7 +21,7 @@ import {
 import {Platform} from 'react-native';
 import { PersistedProvider } from './state_man/reduxStore';
 
-type TypeOfColors = {[P : string]: ColorValue}
+type TypeOfColors = {[P : string]: ColorValue};
 
 let Colors: TypeOfColors = {}
 // import {Colors} from 'react-native/Libraries/NewAppScreen';

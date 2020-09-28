@@ -4,3 +4,8 @@ following this [tutorial](https://levelup.gitconnected.com/react-native-typescri
 
 and [this](https://medium.com/@aureliomerenda/create-a-native-web-app-with-react-native-web-419acac86b82)
 
+had to link storage: 
+```
+yarn react-native link @react-native-community/async-storage
+npx pod-install
+```

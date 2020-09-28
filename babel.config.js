@@ -1,4 +1,4 @@
-console.log("HELLLOOKOOHNJKH")
+console.log("STARTING MOBILE")
 module.exports = {
   "plugins": [
     ["@babel/plugin-transform-typescript", { "allowNamespaces": true }]
